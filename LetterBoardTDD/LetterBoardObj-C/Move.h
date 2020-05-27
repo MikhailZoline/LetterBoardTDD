@@ -8,10 +8,21 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
+typedef enum {
+    left, right
+} Direction;
 
 @interface Move : NSObject
 
+{
+    Direction _direction;
+    unichar _letter;
+}
+- (instancetype) init;
+- (instancetype) initWithDirection:(Direction)dir andLetter:(unichar)ch;
+- (Direction) direction;
+- (unichar) letter;
+- (BOOL) isEqual:(id)object;
+
 @end
 
-NS_ASSUME_NONNULL_END

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD17CB74247DF1AE009C63EC /* TestLetterBoardObj_C.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB73247DF1AE009C63EC /* TestLetterBoardObj_C.m */; };
+		BD17CB80247DF1F0009C63EC /* TestLetterBoardSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB7F247DF1F0009C63EC /* TestLetterBoardSwift.swift */; };
+		BD17CB87247DF24A009C63EC /* LetterBoardObj-C.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB86247DF24A009C63EC /* LetterBoardObj-C.m */; };
+		BD17CB88247DF24A009C63EC /* LetterBoardObj-C.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB86247DF24A009C63EC /* LetterBoardObj-C.m */; };
+		BD17CB8B247DF290009C63EC /* LetterBoardSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB8A247DF290009C63EC /* LetterBoardSwift.swift */; };
+		BD17CB8C247DF290009C63EC /* LetterBoardSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB8A247DF290009C63EC /* LetterBoardSwift.swift */; };
+		BD17CB91247DF52E009C63EC /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB90247DF52E009C63EC /* Move.m */; };
+		BD17CB92247DF52E009C63EC /* Move.m in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB90247DF52E009C63EC /* Move.m */; };
+		BD17CB94247DF5FF009C63EC /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB93247DF5FF009C63EC /* Move.swift */; };
+		BD17CB95247DF5FF009C63EC /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD17CB93247DF5FF009C63EC /* Move.swift */; };
+		BD17CB97247E0123009C63EC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BD17CB96247E0123009C63EC /* README.md */; };
 		BD369237247DEC1700F66159 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD369236247DEC1700F66159 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,11 +34,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BD17CB71247DF1AE009C63EC /* TestLetterBoardObj-C.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TestLetterBoardObj-C.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD17CB73247DF1AE009C63EC /* TestLetterBoardObj_C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLetterBoardObj_C.m; sourceTree = "<group>"; };
+		BD17CB75247DF1AE009C63EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD17CB7D247DF1F0009C63EC /* TestLetterBoardSwift.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLetterBoardSwift.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD17CB7F247DF1F0009C63EC /* TestLetterBoardSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLetterBoardSwift.swift; sourceTree = "<group>"; };
+		BD17CB81247DF1F0009C63EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD17CB85247DF24A009C63EC /* LetterBoardObj-C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LetterBoardObj-C.h"; sourceTree = "<group>"; };
+		BD17CB86247DF24A009C63EC /* LetterBoardObj-C.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LetterBoardObj-C.m"; sourceTree = "<group>"; };
+		BD17CB8A247DF290009C63EC /* LetterBoardSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterBoardSwift.swift; sourceTree = "<group>"; };
+		BD17CB8F247DF52E009C63EC /* Move.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Move.h; sourceTree = "<group>"; };
+		BD17CB90247DF52E009C63EC /* Move.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Move.m; sourceTree = "<group>"; };
+		BD17CB93247DF5FF009C63EC /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		BD17CB96247E0123009C63EC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LetterBoardTDD/README.md; sourceTree = "<group>"; };
 		BD369233247DEC1700F66159 /* LetterBoardTDD */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LetterBoardTDD; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD369236247DEC1700F66159 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BD17CB6E247DF1AE009C63EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17CB7A247DF1F0009C63EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD369230247DEC1700F66159 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +76,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD17CB72247DF1AE009C63EC /* TestLetterBoardObj-C */ = {
+			isa = PBXGroup;
+			children = (
+				BD17CB73247DF1AE009C63EC /* TestLetterBoardObj_C.m */,
+				BD17CB75247DF1AE009C63EC /* Info.plist */,
+			);
+			path = "TestLetterBoardObj-C";
+			sourceTree = "<group>";
+		};
+		BD17CB7E247DF1F0009C63EC /* TestLetterBoardSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BD17CB7F247DF1F0009C63EC /* TestLetterBoardSwift.swift */,
+				BD17CB81247DF1F0009C63EC /* Info.plist */,
+			);
+			path = TestLetterBoardSwift;
+			sourceTree = "<group>";
+		};
+		BD17CB8D247DF4A1009C63EC /* LetterBoardObj-C */ = {
+			isa = PBXGroup;
+			children = (
+				BD17CB85247DF24A009C63EC /* LetterBoardObj-C.h */,
+				BD17CB86247DF24A009C63EC /* LetterBoardObj-C.m */,
+				BD17CB8F247DF52E009C63EC /* Move.h */,
+				BD17CB90247DF52E009C63EC /* Move.m */,
+			);
+			path = "LetterBoardObj-C";
+			sourceTree = "<group>";
+		};
+		BD17CB8E247DF4C5009C63EC /* LetterBoardSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BD17CB8A247DF290009C63EC /* LetterBoardSwift.swift */,
+				BD17CB93247DF5FF009C63EC /* Move.swift */,
+			);
+			name = LetterBoardSwift;
+			sourceTree = "<group>";
+		};
 		BD36922A247DEC1700F66159 = {
 			isa = PBXGroup;
 			children = (
+				BD17CB96247E0123009C63EC /* README.md */,
 				BD369235247DEC1700F66159 /* LetterBoardTDD */,
+				BD17CB72247DF1AE009C63EC /* TestLetterBoardObj-C */,
+				BD17CB7E247DF1F0009C63EC /* TestLetterBoardSwift */,
 				BD369234247DEC1700F66159 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				BD369233247DEC1700F66159 /* LetterBoardTDD */,
+				BD17CB71247DF1AE009C63EC /* TestLetterBoardObj-C.xctest */,
+				BD17CB7D247DF1F0009C63EC /* TestLetterBoardSwift.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,6 +138,8 @@
 		BD369235247DEC1700F66159 /* LetterBoardTDD */ = {
 			isa = PBXGroup;
 			children = (
+				BD17CB8E247DF4C5009C63EC /* LetterBoardSwift */,
+				BD17CB8D247DF4A1009C63EC /* LetterBoardObj-C */,
 				BD369236247DEC1700F66159 /* main.m */,
 			);
 			path = LetterBoardTDD;
@@ -65,6 +148,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BD17CB70247DF1AE009C63EC /* TestLetterBoardObj-C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD17CB78247DF1AE009C63EC /* Build configuration list for PBXNativeTarget "TestLetterBoardObj-C" */;
+			buildPhases = (
+				BD17CB6D247DF1AE009C63EC /* Sources */,
+				BD17CB6E247DF1AE009C63EC /* Frameworks */,
+				BD17CB6F247DF1AE009C63EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TestLetterBoardObj-C";
+			productName = "TestLetterBoardObj-C";
+			productReference = BD17CB71247DF1AE009C63EC /* TestLetterBoardObj-C.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD17CB7C247DF1F0009C63EC /* TestLetterBoardSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD17CB82247DF1F0009C63EC /* Build configuration list for PBXNativeTarget "TestLetterBoardSwift" */;
+			buildPhases = (
+				BD17CB79247DF1F0009C63EC /* Sources */,
+				BD17CB7A247DF1F0009C63EC /* Frameworks */,
+				BD17CB7B247DF1F0009C63EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestLetterBoardSwift;
+			productName = TestLetterBoardSwift;
+			productReference = BD17CB7D247DF1F0009C63EC /* TestLetterBoardSwift.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		BD369232247DEC1700F66159 /* LetterBoardTDD */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD36923A247DEC1700F66159 /* Build configuration list for PBXNativeTarget "LetterBoardTDD" */;
@@ -88,11 +205,19 @@
 		BD36922B247DEC1700F66159 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Mikhail Zoline";
 				TargetAttributes = {
+					BD17CB70247DF1AE009C63EC = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					BD17CB7C247DF1F0009C63EC = {
+						CreatedOnToolsVersion = 10.3;
+					};
 					BD369232247DEC1700F66159 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -109,22 +234,136 @@
 			projectRoot = "";
 			targets = (
 				BD369232247DEC1700F66159 /* LetterBoardTDD */,
+				BD17CB70247DF1AE009C63EC /* TestLetterBoardObj-C */,
+				BD17CB7C247DF1F0009C63EC /* TestLetterBoardSwift */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		BD17CB6F247DF1AE009C63EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17CB7B247DF1F0009C63EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17CB97247E0123009C63EC /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		BD17CB6D247DF1AE009C63EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17CB88247DF24A009C63EC /* LetterBoardObj-C.m in Sources */,
+				BD17CB92247DF52E009C63EC /* Move.m in Sources */,
+				BD17CB74247DF1AE009C63EC /* TestLetterBoardObj_C.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD17CB79247DF1F0009C63EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD17CB8C247DF290009C63EC /* LetterBoardSwift.swift in Sources */,
+				BD17CB95247DF5FF009C63EC /* Move.swift in Sources */,
+				BD17CB80247DF1F0009C63EC /* TestLetterBoardSwift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BD36922F247DEC1700F66159 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD17CB94247DF5FF009C63EC /* Move.swift in Sources */,
+				BD17CB91247DF52E009C63EC /* Move.m in Sources */,
+				BD17CB87247DF24A009C63EC /* LetterBoardObj-C.m in Sources */,
 				BD369237247DEC1700F66159 /* main.m in Sources */,
+				BD17CB8B247DF290009C63EC /* LetterBoardSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BD17CB76247DF1AE009C63EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TestLetterBoardObj-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.TestLetterBoardObj-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD17CB77247DF1AE009C63EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "TestLetterBoardObj-C/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xx.TestLetterBoardObj-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD17CB83247DF1F0009C63EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestLetterBoardSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xx.TestLetterBoardSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BD17CB84247DF1F0009C63EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TestLetterBoardSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xx.TestLetterBoardSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BD369238247DEC1700F66159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,22 +478,57 @@
 		BD36923B247DEC1700F66159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LetterBoardTDD-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		BD36923C247DEC1700F66159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LetterBoardTDD-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD17CB78247DF1AE009C63EC /* Build configuration list for PBXNativeTarget "TestLetterBoardObj-C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17CB76247DF1AE009C63EC /* Debug */,
+				BD17CB77247DF1AE009C63EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD17CB82247DF1F0009C63EC /* Build configuration list for PBXNativeTarget "TestLetterBoardSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD17CB83247DF1F0009C63EC /* Debug */,
+				BD17CB84247DF1F0009C63EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BD36922E247DEC1700F66159 /* Build configuration list for PBXProject "LetterBoardTDD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

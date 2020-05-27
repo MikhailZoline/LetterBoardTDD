@@ -7,6 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "Move.h"
+#import "LetterBoardObj-C.h"
 
 @interface TestLetterBoardObj_C : XCTestCase
 
@@ -14,24 +16,31 @@
 
 @implementation TestLetterBoardObj_C
 
-- (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+- (void)testLetterBoardUsingCat {
+    NSArray *testRes = [LetterBoardObj_C solveLetterBoard:@"azctva" ForWord:@"cat"];
+    NSArray *expectedRes = [NSArray arrayWithObjects:
+                            [[Move alloc]initWithDirection:left andLetter:0],
+                            [[Move alloc]initWithDirection:left andLetter:0],
+                            [[Move alloc]initWithDirection:left andLetter:'c'],
+                            [[Move alloc]initWithDirection:right andLetter:0],
+                            [[Move alloc]initWithDirection:right andLetter:'a'],
+                            [[Move alloc]initWithDirection:left andLetter:0],
+                            [[Move alloc]initWithDirection:left andLetter:'t'], nil
+                            ];
+    
+    XCTAssertTrue([testRes isEqualToArray:expectedRes]);
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testLetterBoardUsingTV {
+    NSArray *testRes = [LetterBoardObj_C solveLetterBoard:@"azctva" ForWord:@"tv"];
+    NSArray *expectedRes = [NSArray arrayWithObjects:
+                            [[Move alloc]initWithDirection:right andLetter:0],
+                            [[Move alloc]initWithDirection:right andLetter:0],
+                            [[Move alloc]initWithDirection:right andLetter:'t'],
+                            [[Move alloc]initWithDirection:left andLetter:'v'], nil
+                            ];
+    
+    XCTAssertTrue([testRes isEqualToArray:expectedRes]);
 }
 
 @end

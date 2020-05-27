@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface LetterBoardObj_C : NSObject
+
++ (NSArray *)solveLetterBoard:(NSString*)boardString ForWord:(NSString*)word;
 
 @end
 
-NS_ASSUME_NONNULL_END
+
